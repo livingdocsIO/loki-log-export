@@ -1,0 +1,82 @@
+[
+    {
+        "stream": {
+            "container_id": "5f5fe11219aa2731b09f4a30ffab166fb6b03f2ea69bd69a61ad92927ee6e7e8",
+            "container_image": "livingdocs/varnish:6.4.0-r3",
+            "container_name": "r-bluewin-test-varnish-15-1138dbcf",
+            "host": "worker-dev-giv4lc",
+            "service": "bluewin-test/varnish",
+            "stream": "journal",
+            "unit": "docker.service",
+            "cluster": "development"
+        },
+        "values": [
+            [
+                "1606435205397852000",
+                "{\"@timestamp\":\"2020-11-27T00:00:03+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"2964\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.002709\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435213854322000",
+                "{\"@timestamp\":\"2020-11-27T00:00:13+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"521\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000190\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435235221104000",
+                "{\"@timestamp\":\"2020-11-27T00:00:33+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.222.6\",\"x_forwarded_for\":\"161.35.66.180, 10.42.222.6\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"2129\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.002054\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435243859975000",
+                "{\"@timestamp\":\"2020-11-27T00:00:43+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.222.6\",\"x_forwarded_for\":\"161.35.66.180, 10.42.222.6\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"294\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000143\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435275399180000",
+                "{\"@timestamp\":\"2020-11-27T00:01:13+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"2292\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.002101\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ]
+        ]
+    },
+    {
+        "stream": {
+            "host": "worker-dev-gmlq89",
+            "service": "bluewin-test/varnish",
+            "stream": "journal",
+            "unit": "docker.service",
+            "cluster": "development",
+            "container_id": "9e6df53d38c855228b3215e5d1ec053f96dab5dac289efd8f733560afcb7eddf",
+            "container_image": "livingdocs/varnish:6.4.0-r3",
+            "container_name": "r-bluewin-test-varnish-13-54ba2709"
+        },
+        "values": [
+            [
+                "1606435203856851000",
+                "{\"@timestamp\":\"2020-11-27T00:00:03+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"500\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000180\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435225219558000",
+                "{\"@timestamp\":\"2020-11-27T00:00:23+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.222.6\",\"x_forwarded_for\":\"161.35.66.180, 10.42.222.6\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"1508\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.001274\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435233875061000",
+                "{\"@timestamp\":\"2020-11-27T00:00:33+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.222.6\",\"x_forwarded_for\":\"161.35.66.180, 10.42.222.6\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"452\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000156\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435255468985000",
+                "{\"@timestamp\":\"2020-11-27T00:00:53+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.138.233\",\"x_forwarded_for\":\"161.35.66.180, 10.42.138.233\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"1568\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.001481\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435265396698000",
+                "{\"@timestamp\":\"2020-11-27T00:01:03+0000\",\"method\":\"GET\",\"url\":\"/\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"miss\",\"bytes\":\"80\",\"duration_usec\":\"1922\",\"status\":\"302\",\"request\":\"GET http://bluewin.livingdocs.io/ HTTP/2.0\",\"ttfb\":\"0.001708\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435273845734000",
+                "{\"@timestamp\":\"2020-11-27T00:01:13+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"400\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000156\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435283870424000",
+                "{\"@timestamp\":\"2020-11-27T00:01:23+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.138.233\",\"x_forwarded_for\":\"161.35.66.180, 10.42.138.233\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"255\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000117\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ],
+            [
+                "1606435293852023000",
+                "{\"@timestamp\":\"2020-11-27T00:01:33+0000\",\"method\":\"GET\",\"url\":\"/de/index.html\",\"remote_ip\":\"10.42.51.81\",\"x_forwarded_for\":\"10.42.3.228, 10.42.51.81\",\"cache\":\"hit\",\"bytes\":\"108039\",\"duration_usec\":\"379\",\"status\":\"200\",\"request\":\"GET http://bluewin.livingdocs.io/de/index.html HTTP/2.0\",\"ttfb\":\"0.000126\",\"referrer\":\"-\",\"user_agent\":\"Go-http-client/1.1\"}"
+            ]
+        ]
+    }
+]

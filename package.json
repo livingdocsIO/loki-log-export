@@ -1,0 +1,19 @@
+{
+  "name": "loki-log-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.800.0",
+    "axios": "^0.21.0",
+    "cron": "^1.8.2",
+    "pino": "^6.7.0",
+    "prexit": "^0.0.5",
+    "s3-streams": "^0.4.0"
+  }
+}
